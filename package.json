@@ -2,15 +2,24 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "",
+  "keywords": [],
+  "homepage": "https://github.com/ashwani-codess/skill-swap-backend#readme",
+  "bugs": {
+    "url": "https://github.com/ashwani-codess/skill-swap-backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashwani-codess/skill-swap-backend.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "dev": "nodemon server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "bcryptjs": "^3.0.3",
     "cookie-parser": "^1.4.7",
@@ -19,6 +28,7 @@
     "express": "^5.2.1",
     "jsonwebtoken": "^9.0.3",
     "mongoose": "^9.3.1",
+    "nodemailer": "^9.0.3",
     "openai": "^6.32.0"
   },
   "devDependencies": {
